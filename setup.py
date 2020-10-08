@@ -20,17 +20,22 @@ INSTALL_REQS = [
     "coderedcms",
     "django-dbbackup",
     "logzero",
+]
+
+
+# Dependencies required for development
+DEV_REQS = [
+    "jupyter",
+    "flake8",
+    "black",
+    "isort",
+    "mypy",
     "pandas",
     "scipy",
     "seaborn",
 ]
 
-
-# Dependencies required for development
-DEV_REQS = ["jupyter", "flake8", "black", "isort", "mypy"]
-
 # tricks for task management
-# Makefile
 TASK_REQS = ["doit", "fabric"]
 
 # Dependencies required only for running tests
