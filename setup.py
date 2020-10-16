@@ -20,6 +20,7 @@ INSTALL_REQS = [
     "coderedcms",
     "django-dbbackup",
     "logzero",
+    "python-dotenv",
 ]
 
 
@@ -69,7 +70,7 @@ long_description = read("README.md")
 
 setup(
     name=NAME,
-    version="0.1.0",
+    version="0.1.1",
     packages=find_packages(),
     install_requires=INSTALL_REQS,
     extras_require={
