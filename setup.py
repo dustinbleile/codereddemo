@@ -20,6 +20,7 @@ INSTALL_REQS = [
     "coderedcms",
     "django-dbbackup",
     "logzero",
+    "python-dotenv",
 ]
 
 
