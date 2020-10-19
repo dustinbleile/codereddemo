@@ -19,6 +19,7 @@ INSTALL_REQS = [
     "wagtail",  # django cms
     "coderedcms",
     "django-dbbackup",
+    "django_sendmail_backend",
     "logzero",
     "python-dotenv",
 ]
@@ -30,6 +31,7 @@ DEV_REQS = [
     "flake8",
     "black",
     "isort",
+    "pylint",
     "mypy",
     "pandas",
     "scipy",
@@ -70,7 +72,7 @@ long_description = read("README.md")
 
 setup(
     name=NAME,
-    version="0.1.1",
+    version="0.1.2",
     packages=find_packages(),
     install_requires=INSTALL_REQS,
     extras_require={

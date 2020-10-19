@@ -1,10 +1,14 @@
+import django_sendmail_backend
+
 from .base import *  # noqa
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
 # Add your site's domain name(s) here.
-ALLOWED_HOSTS = ["localhost", "www.neuralnettle.com", "dustinbleile.pythonanywhere.com"]
+ALLOWED_HOSTS = ["127.0.0.1",
+                 "www.neuralnettle.com",
+                 "dustinbleile.pythonanywhere.com"]
 
 # To send email from the server, we recommend django_sendmail_backend
 # Or specify your own email backend such as an SMTP server.
